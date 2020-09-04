@@ -1,0 +1,10 @@
+
+
+class mysettings:
+    user = "denis"
+    pw = "password"
+
+
+if __name__ == '__main__':
+    assert mysettings.pw == "passwords"
+    print("This prints if running as a non-module (aka, if running the script).")
